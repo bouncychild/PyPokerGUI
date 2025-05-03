@@ -5,9 +5,9 @@ from pypokerengine.players import BasePokerPlayer
 # All cards follow this format: Suit + Rank : 4 of Hearts = 4H, 10 of Spades = ST [2,3,4,5,6,7,8,9,T,J,Q,K,A] [S,C,D,H]
 
 def setup_ai():
-    return MyBot()
+    return lmaoBot()
 
-class MyBot(BasePokerPlayer):  # Do not forget to make parent class as "BasePokerPlayer"
+class lmaoBot(BasePokerPlayer):  # Do not forget to make parent class as "BasePokerPlayer"
 
     #  we define the logic to make an action through this method. (so this method would be the core of your AI)
     def declare_action(self, valid_actions, hole_card, round_state):
