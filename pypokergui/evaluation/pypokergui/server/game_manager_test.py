@@ -1,7 +1,7 @@
 import os
 
-from tests.base_unittest import BaseUnitTest
-from tests.pypokergui.server.sample_ai_setup_script import FishPlayer
+from evaluation.base_unittest import BaseUnitTest
+from evaluation.pypokergui.server.sample_ai_setup_script import FishPlayer
 
 from pypokergui.server.game_manager import GameManager
 

@@ -1,0 +1,7 @@
+### Team & Workflow
+
+Built by a 4-person team — Han-Wen Khaw (owned the equity evaluator: Monte Carlo equity engine, benchmarking, reviews), Leo Liu (decision engine & strategy logic), Zenan Chen (GUI/I/O with PyPokerGUI and packaging), and David Wang (headless simulation runner, logging & data). We collaborated using GitHub Flow (short-lived feature branches → pull requests with at least one review), tracked tasks via Issues, and enforced consistent style with linters/tests before merge. **Repo note:** this is my personal mirror of the team project; the original class repo is private, so commit history here reflects mostly my contributions—roles/credits above capture the full team’s work.
+
+### How We Tested
+
+We added unit tests for hand ranking, pot-odds math, and edge cases (tied straights/flushes, multiway pots); seeded Monte Carlo runs for reproducibility; and used a small benchmark script to track accuracy vs. runtime over configurable hand counts. Pull requests required tests to pass and basic linter checks before merge.

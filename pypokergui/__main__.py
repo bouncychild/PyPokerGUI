@@ -13,7 +13,7 @@ sys.path.append(root)
 sys.path.append(src)
 
 from pypokergui.server.poker import start_server
-from pypokergui.config_builder import build_config
+from pypokergui.server.config_builder import build_config
 
 def serve(config_path, port, speed):
     host = "localhost"
@@ -41,7 +41,7 @@ def main():
 
     # Build config command
     build_parser = subparsers.add_parser("build_config", help="Build a new poker config YAML")
-    build_parser.add_argument("-r", "--maxround", type=int, default=10, help="Final round of the game")
+    build_parser.add_argument("-r", "--maxround", type=int, default=1000, help="Final round of the game")
     build_parser.add_argument("-s", "--stack", type=int, default=100, help="Starting stack for each player")
     build_parser.add_argument("-b", "--small_blind", type=int, default=5, help="Small blind amount")
     build_parser.add_argument("-a", "--ante", type=int, default=0, help="Ante amount")

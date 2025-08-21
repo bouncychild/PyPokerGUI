@@ -2,7 +2,7 @@ import os
 from mock import Mock
 from mock import patch
 
-from tests.base_unittest import BaseUnitTest
+from evaluation.base_unittest import BaseUnitTest
 
 from pypokergui.server.game_manager import GameManager
 import pypokergui.server.message_manager as MM

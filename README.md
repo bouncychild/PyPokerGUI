@@ -82,21 +82,36 @@ To see how your bot plays against other bots:
 - Register your bot in poker_conf.yaml:
 ```yaml
 ai_players:
+  - name: "calling_station"
+    path: pypokergui/bots/calling_station.py
+  - name: "NitBot"
+    path: pypokergui/bots/NitBot.py
+  - name: "Rando"
+    path: pypokergui/bots/random_bot.py
+  - name: "TAGBot"
+    path: pypokergui/bots/TAGBot.py
   - name: Fish1
-    path: sample_player/fish_player_setup.py
+    path: pypokergui/bots/sample_player/fish_player_setup.py
   - name: Fish2
-    path: sample_player/fish_player_setup.py
+    path: pypokergui/bots/sample_player/fish_player_setup.py
   - name: Fish3
-    path: sample_player/random_player_setup.py
-  - name: Team-Bots
-    path: submission/Team-Bots.py
+    path: pypokergui/bots/sample_player/random_player_setup.py
+  - name: "CodeforcesNoob"
+    path: pypokergui/bots/mybot.py
 ante: 0
 blind_structure: null
-initial_stack: 100
-max_round: 10
+initial_stack: 1000
+max_round: 100
 small_blind: 10
+
+# UI settings
+ui_config:
+  speed: "moderate"  # slow, moderate, fast
+  auto_play: true   # Set to true for automated play
+  show_hand_strength: true
+  show_pot_odds: true
 ```
-In this code block, your bot is the fourth player
+In this code block, mybot is the eighth player
 The other players codes are in the sample_player folder (you do not need to work in this folder)
 You can also play around with different ante's, initial stacks, max number of rounds and the small blind
 
@@ -133,7 +148,7 @@ Notion on Poker : https://www.notion.so/How-to-play-poker-An-extensive-guide-for
 from pypokerengine.players import BasePokerPlayer
 from pypokerengine.api.emulator import Emulator
 from pypokerengine.utils.game_state_utils import restore_game_state
-
+from pypokerengine.players import BasePokerPlayer
 from mymodule.poker_ai.player_model import SomePlayerModel
 
 class RLPLayer(BasePokerPlayer):

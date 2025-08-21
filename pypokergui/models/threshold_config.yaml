@@ -1,0 +1,9 @@
+preflop:
+  low_spr: {raise: 0.65, call: 0.55}
+  mid_spr: {raise: 0.60, call: 0.50}
+  high_spr: {raise: 0.55, call: 0.45}
+flop:
+  low_spr: {raise: 0.70, call: 0.60}
+  # change these below later
+  mid_spr: {raise: 0.60, call: 0.50}
+  high_spr: {raise: 0.55, call: 0.45}

@@ -1,8 +1,8 @@
 from pypokerengine.engine.card import Card
 from pypokerengine.engine.deck import Deck
-from tests.base_unittest import BaseUnitTest
+from evaluation.base_unittest import BaseUnitTest
 
-import pypokergui.engine_wrapper as Engine
+import pypokergui.engine.engine_wrapper as Engine
 
 class EngineWrapperTest(BaseUnitTest):
 

@@ -1,4 +1,4 @@
-from tests.base_unittest import BaseUnitTest
+from evaluation.base_unittest import BaseUnitTest
 
 import os
 import sys
@@ -9,7 +9,7 @@ except ImportError:
 
 import yaml
 
-from pypokergui.config_builder import build_config
+from pypokergui.server.config_builder import build_config
 
 class ConfigBuilderTest(BaseUnitTest):
 

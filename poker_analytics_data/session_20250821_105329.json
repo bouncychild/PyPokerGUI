@@ -1,0 +1,2388 @@
+{
+  "hands": [
+    {
+      "hand_number": 1,
+      "hole_cards": [
+        "SA",
+        "C6"
+      ],
+      "seats": {
+        "calling_station": {
+          "name": "calling_station",
+          "uuid": "0",
+          "stack": 1000,
+          "state": "participating"
+        },
+        "NitBot": {
+          "name": "NitBot",
+          "uuid": "1",
+          "stack": 990,
+          "state": "participating"
+        },
+        "Rando": {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 980,
+          "state": "participating"
+        },
+        "TAGBot": {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1000,
+          "state": "participating"
+        },
+        "Fish1": {
+          "name": "Fish1",
+          "uuid": "4",
+          "stack": 1000,
+          "state": "participating"
+        },
+        "Fish2": {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 1000,
+          "state": "participating"
+        },
+        "Fish3": {
+          "name": "Fish3",
+          "uuid": "6",
+          "stack": 1000,
+          "state": "participating"
+        },
+        "CodeforcesNoob": {
+          "name": "CodeforcesNoob",
+          "uuid": "7",
+          "stack": 1000,
+          "state": "participating"
+        },
+        "AnalysisBot": {
+          "name": "AnalysisBot",
+          "uuid": "8",
+          "stack": 1000,
+          "state": "participating"
+        }
+      },
+      "actions": [
+        {
+          "type": "street_start",
+          "street": "preflop",
+          "pot": 30,
+          "board": []
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 20,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 20,
+          "pot": 70
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "raise",
+          "amount": 505,
+          "pot": 575
+        },
+        {
+          "type": "action",
+          "player": "7",
+          "action": "fold",
+          "amount": 0,
+          "pot": 575
+        },
+        {
+          "type": "action",
+          "player": "8",
+          "action": "fold",
+          "amount": 0,
+          "pot": 575
+        },
+        {
+          "type": "action",
+          "player": "0",
+          "action": "call",
+          "amount": 505,
+          "pot": 1080
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "fold",
+          "amount": 0,
+          "pot": 1080
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "call",
+          "amount": 505,
+          "pot": 1565
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 505,
+          "pot": 2050
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 505,
+          "pot": 2535
+        },
+        {
+          "type": "street_start",
+          "street": "flop",
+          "pot": 2535,
+          "board": [
+            "C8",
+            "CT",
+            "HK"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "raise",
+          "amount": 261,
+          "pot": 2796
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 261,
+          "pot": 3057
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 261,
+          "pot": 3318
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "call",
+          "amount": 261,
+          "pot": 3579
+        },
+        {
+          "type": "action",
+          "player": "0",
+          "action": "call",
+          "amount": 261,
+          "pot": 3840
+        },
+        {
+          "type": "street_start",
+          "street": "turn",
+          "pot": 3840,
+          "board": [
+            "C8",
+            "CT",
+            "HK",
+            "C7"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "call",
+          "amount": 0,
+          "pot": 3840
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 0,
+          "pot": 3840
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 3840
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "raise",
+          "amount": 132,
+          "pot": 3972
+        },
+        {
+          "type": "action",
+          "player": "0",
+          "action": "call",
+          "amount": 132,
+          "pot": 4104
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "raise",
+          "amount": -1,
+          "pot": 4104
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 132,
+          "pot": 4236
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 132,
+          "pot": 4368
+        },
+        {
+          "type": "street_start",
+          "street": "river",
+          "pot": 4368,
+          "board": [
+            "C8",
+            "CT",
+            "HK",
+            "C7",
+            "S8"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 0,
+          "pot": 4368
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 4368
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "call",
+          "amount": 0,
+          "pot": 4368
+        },
+        {
+          "type": "action",
+          "player": "0",
+          "action": "call",
+          "amount": 0,
+          "pot": 4368
+        }
+      ],
+      "pot_history": [],
+      "winners": [
+        {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4470,
+          "state": "participating"
+        }
+      ],
+      "final_board": [
+        {
+          "uuid": "0",
+          "hand": {
+            "hand": {
+              "strength": "TWO PAIR",
+              "high": 13,
+              "low": 8
+            },
+            "hole": {
+              "high": 13,
+              "low": 3
+            }
+          },
+          "hand_cards": [
+            "CK",
+            "D3"
+          ]
+        },
+        {
+          "uuid": "4",
+          "hand": {
+            "hand": {
+              "strength": "PAIR",
+              "high": 8,
+              "low": 0
+            },
+            "hole": {
+              "high": 11,
+              "low": 5
+            }
+          },
+          "hand_cards": [
+            "CJ",
+            "H5"
+          ]
+        },
+        {
+          "uuid": "5",
+          "hand": {
+            "hand": {
+              "strength": "STRAIGHT",
+              "high": 6,
+              "low": 0
+            },
+            "hole": {
+              "high": 9,
+              "low": 6
+            }
+          },
+          "hand_cards": [
+            "D9",
+            "D6"
+          ]
+        },
+        {
+          "uuid": "6",
+          "hand": {
+            "hand": {
+              "strength": "PAIR",
+              "high": 8,
+              "low": 0
+            },
+            "hole": {
+              "high": 14,
+              "low": 9
+            }
+          },
+          "hand_cards": [
+            "CA",
+            "S9"
+          ]
+        }
+      ],
+      "final_pot": 4368
+    },
+    {
+      "hand_number": 2,
+      "hole_cards": [
+        "SK",
+        "H6"
+      ],
+      "seats": {
+        "calling_station": {
+          "name": "calling_station",
+          "uuid": "0",
+          "stack": 102,
+          "state": "participating"
+        },
+        "NitBot": {
+          "name": "NitBot",
+          "uuid": "1",
+          "stack": 990,
+          "state": "participating"
+        },
+        "Rando": {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 224,
+          "state": "participating"
+        },
+        "TAGBot": {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 980,
+          "state": "participating"
+        },
+        "Fish1": {
+          "name": "Fish1",
+          "uuid": "4",
+          "stack": 102,
+          "state": "participating"
+        },
+        "Fish2": {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4470,
+          "state": "participating"
+        },
+        "Fish3": {
+          "name": "Fish3",
+          "uuid": "6",
+          "stack": 102,
+          "state": "participating"
+        },
+        "CodeforcesNoob": {
+          "name": "CodeforcesNoob",
+          "uuid": "7",
+          "stack": 1000,
+          "state": "participating"
+        },
+        "AnalysisBot": {
+          "name": "AnalysisBot",
+          "uuid": "8",
+          "stack": 1000,
+          "state": "participating"
+        }
+      },
+      "actions": [
+        {
+          "type": "street_start",
+          "street": "preflop",
+          "pot": 30,
+          "board": []
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 20,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 20,
+          "pot": 70
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "fold",
+          "amount": 0,
+          "pot": 70
+        },
+        {
+          "type": "action",
+          "player": "7",
+          "action": "fold",
+          "amount": 0,
+          "pot": 70
+        },
+        {
+          "type": "action",
+          "player": "8",
+          "action": "fold",
+          "amount": 0,
+          "pot": 70
+        },
+        {
+          "type": "action",
+          "player": "0",
+          "action": "call",
+          "amount": 20,
+          "pot": 90
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "fold",
+          "amount": 0,
+          "pot": 90
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "fold",
+          "amount": 0,
+          "pot": 90
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "raise",
+          "amount": 100,
+          "pot": 170
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 100,
+          "pot": 250
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 100,
+          "pot": 330
+        },
+        {
+          "type": "action",
+          "player": "0",
+          "action": "call",
+          "amount": 100,
+          "pot": 410
+        },
+        {
+          "type": "street_start",
+          "street": "flop",
+          "pot": 410,
+          "board": [
+            "C4",
+            "CT",
+            "S2"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 410
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 0,
+          "pot": 410
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 410
+        },
+        {
+          "type": "action",
+          "player": "0",
+          "action": "call",
+          "amount": 0,
+          "pot": 410
+        },
+        {
+          "type": "street_start",
+          "street": "turn",
+          "pot": 410,
+          "board": [
+            "C4",
+            "CT",
+            "S2",
+            "S8"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 410
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 0,
+          "pot": 410
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 410
+        },
+        {
+          "type": "action",
+          "player": "0",
+          "action": "call",
+          "amount": 0,
+          "pot": 410
+        },
+        {
+          "type": "street_start",
+          "street": "river",
+          "pot": 410,
+          "board": [
+            "C4",
+            "CT",
+            "S2",
+            "S8",
+            "C5"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "raise",
+          "amount": 100,
+          "pot": 510
+        },
+        {
+          "type": "action",
+          "player": "4",
+          "action": "call",
+          "amount": 100,
+          "pot": 414
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 100,
+          "pot": 416
+        },
+        {
+          "type": "action",
+          "player": "0",
+          "action": "call",
+          "amount": 100,
+          "pot": 418
+        }
+      ],
+      "pot_history": [],
+      "winners": [
+        {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1414,
+          "state": "participating"
+        }
+      ],
+      "final_board": [
+        {
+          "uuid": "0",
+          "hand": {
+            "hand": {
+              "strength": "PAIR",
+              "high": 5,
+              "low": 0
+            },
+            "hole": {
+              "high": 11,
+              "low": 5
+            }
+          },
+          "hand_cards": [
+            "H5",
+            "HJ"
+          ]
+        },
+        {
+          "uuid": "3",
+          "hand": {
+            "hand": {
+              "strength": "TWO PAIR",
+              "high": 10,
+              "low": 8
+            },
+            "hole": {
+              "high": 10,
+              "low": 8
+            }
+          },
+          "hand_cards": [
+            "DT",
+            "H8"
+          ]
+        },
+        {
+          "uuid": "4",
+          "hand": {
+            "hand": {
+              "strength": "HIGH CARD",
+              "high": 9,
+              "low": 7
+            },
+            "hole": {
+              "high": 9,
+              "low": 7
+            }
+          },
+          "hand_cards": [
+            "C7",
+            "D9"
+          ]
+        },
+        {
+          "uuid": "5",
+          "hand": {
+            "hand": {
+              "strength": "PAIR",
+              "high": 2,
+              "low": 0
+            },
+            "hole": {
+              "high": 6,
+              "low": 2
+            }
+          },
+          "hand_cards": [
+            "C2",
+            "D6"
+          ]
+        }
+      ],
+      "final_pot": 418
+    },
+    {
+      "hand_number": 3,
+      "hole_cards": [
+        "DA",
+        "CT"
+      ],
+      "seats": {
+        "calling_station": {
+          "name": "calling_station",
+          "uuid": "0",
+          "stack": 0,
+          "state": "folded"
+        },
+        "NitBot": {
+          "name": "NitBot",
+          "uuid": "1",
+          "stack": 990,
+          "state": "participating"
+        },
+        "Rando": {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 224,
+          "state": "participating"
+        },
+        "TAGBot": {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1404,
+          "state": "participating"
+        },
+        "Fish1": {
+          "name": "Fish1",
+          "uuid": "4",
+          "stack": 0,
+          "state": "folded"
+        },
+        "Fish2": {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4250,
+          "state": "participating"
+        },
+        "Fish3": {
+          "name": "Fish3",
+          "uuid": "6",
+          "stack": 102,
+          "state": "participating"
+        },
+        "CodeforcesNoob": {
+          "name": "CodeforcesNoob",
+          "uuid": "7",
+          "stack": 1000,
+          "state": "participating"
+        },
+        "AnalysisBot": {
+          "name": "AnalysisBot",
+          "uuid": "8",
+          "stack": 1000,
+          "state": "participating"
+        }
+      },
+      "actions": [
+        {
+          "type": "street_start",
+          "street": "preflop",
+          "pot": 30,
+          "board": []
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "raise",
+          "amount": 69,
+          "pot": 99
+        },
+        {
+          "type": "action",
+          "player": "7",
+          "action": "fold",
+          "amount": 0,
+          "pot": 99
+        },
+        {
+          "type": "action",
+          "player": "8",
+          "action": "fold",
+          "amount": 0,
+          "pot": 99
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "fold",
+          "amount": 0,
+          "pot": 99
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "fold",
+          "amount": 0,
+          "pot": 99
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 99
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 69,
+          "pot": 148
+        },
+        {
+          "type": "street_start",
+          "street": "flop",
+          "pot": 148,
+          "board": [
+            "C4",
+            "H4",
+            "D7"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 148
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "call",
+          "amount": 0,
+          "pot": 148
+        },
+        {
+          "type": "street_start",
+          "street": "turn",
+          "pot": 148,
+          "board": [
+            "C4",
+            "H4",
+            "D7",
+            "C6"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 148
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "call",
+          "amount": 0,
+          "pot": 148
+        },
+        {
+          "type": "street_start",
+          "street": "river",
+          "pot": 148,
+          "board": [
+            "C4",
+            "H4",
+            "D7",
+            "C6",
+            "HQ"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 148
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "fold",
+          "amount": 0,
+          "pot": 148
+        }
+      ],
+      "pot_history": [],
+      "winners": [
+        {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4349,
+          "state": "participating"
+        }
+      ],
+      "final_board": [],
+      "final_pot": 148
+    },
+    {
+      "hand_number": 4,
+      "hole_cards": [
+        "H8",
+        "C2"
+      ],
+      "seats": {
+        "calling_station": {
+          "name": "calling_station",
+          "uuid": "0",
+          "stack": 0,
+          "state": "folded"
+        },
+        "NitBot": {
+          "name": "NitBot",
+          "uuid": "1",
+          "stack": 990,
+          "state": "participating"
+        },
+        "Rando": {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 224,
+          "state": "participating"
+        },
+        "TAGBot": {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1404,
+          "state": "participating"
+        },
+        "Fish1": {
+          "name": "Fish1",
+          "uuid": "4",
+          "stack": 0,
+          "state": "folded"
+        },
+        "Fish2": {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4339,
+          "state": "participating"
+        },
+        "Fish3": {
+          "name": "Fish3",
+          "uuid": "6",
+          "stack": 13,
+          "state": "participating"
+        },
+        "CodeforcesNoob": {
+          "name": "CodeforcesNoob",
+          "uuid": "7",
+          "stack": 1000,
+          "state": "participating"
+        },
+        "AnalysisBot": {
+          "name": "AnalysisBot",
+          "uuid": "8",
+          "stack": 1000,
+          "state": "participating"
+        }
+      },
+      "actions": [
+        {
+          "type": "street_start",
+          "street": "preflop",
+          "pot": 30,
+          "board": []
+        },
+        {
+          "type": "action",
+          "player": "7",
+          "action": "fold",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "8",
+          "action": "fold",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "fold",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "raise",
+          "amount": 64,
+          "pot": 94
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "raise",
+          "amount": 100,
+          "pot": 94
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 64,
+          "pot": 148
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "fold",
+          "amount": 0,
+          "pot": 148
+        },
+        {
+          "type": "street_start",
+          "street": "flop",
+          "pot": 148,
+          "board": [
+            "S5",
+            "HQ",
+            "D3"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 148
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "fold",
+          "amount": 0,
+          "pot": 148
+        }
+      ],
+      "pot_history": [],
+      "winners": [
+        {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4433,
+          "state": "participating"
+        }
+      ],
+      "final_board": [],
+      "final_pot": 148
+    },
+    {
+      "hand_number": 5,
+      "hole_cards": [
+        "S2",
+        "SK"
+      ],
+      "seats": {
+        "calling_station": {
+          "name": "calling_station",
+          "uuid": "0",
+          "stack": 0,
+          "state": "folded"
+        },
+        "NitBot": {
+          "name": "NitBot",
+          "uuid": "1",
+          "stack": 990,
+          "state": "participating"
+        },
+        "Rando": {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 160,
+          "state": "participating"
+        },
+        "TAGBot": {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1404,
+          "state": "participating"
+        },
+        "Fish1": {
+          "name": "Fish1",
+          "uuid": "4",
+          "stack": 0,
+          "state": "folded"
+        },
+        "Fish2": {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4433,
+          "state": "participating"
+        },
+        "Fish3": {
+          "name": "Fish3",
+          "uuid": "6",
+          "stack": 3,
+          "state": "participating"
+        },
+        "CodeforcesNoob": {
+          "name": "CodeforcesNoob",
+          "uuid": "7",
+          "stack": 980,
+          "state": "participating"
+        },
+        "AnalysisBot": {
+          "name": "AnalysisBot",
+          "uuid": "8",
+          "stack": 1000,
+          "state": "participating"
+        }
+      },
+      "actions": [
+        {
+          "type": "street_start",
+          "street": "preflop",
+          "pot": 30,
+          "board": []
+        },
+        {
+          "type": "action",
+          "player": "8",
+          "action": "fold",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "call",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "call",
+          "amount": 20,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 20,
+          "pot": 70
+        },
+        {
+          "type": "action",
+          "player": "6",
+          "action": "call",
+          "amount": 20,
+          "pot": 52
+        },
+        {
+          "type": "action",
+          "player": "7",
+          "action": "fold",
+          "amount": 0,
+          "pot": 52
+        },
+        {
+          "type": "street_start",
+          "street": "flop",
+          "pot": 52,
+          "board": [
+            "CK",
+            "D2",
+            "HK"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "call",
+          "amount": 0,
+          "pot": 52
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 52
+        },
+        {
+          "type": "street_start",
+          "street": "turn",
+          "pot": 52,
+          "board": [
+            "CK",
+            "D2",
+            "HK",
+            "H2"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "fold",
+          "amount": 0,
+          "pot": 52
+        },
+        {
+          "type": "street_start",
+          "street": "river",
+          "pot": 52,
+          "board": [
+            "CK",
+            "D2",
+            "HK",
+            "H2",
+            "H3"
+          ]
+        }
+      ],
+      "pot_history": [],
+      "winners": [
+        {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4486,
+          "state": "participating"
+        }
+      ],
+      "final_board": [
+        {
+          "uuid": "5",
+          "hand": {
+            "hand": {
+              "strength": "TWO PAIR",
+              "high": 13,
+              "low": 2
+            },
+            "hole": {
+              "high": 14,
+              "low": 9
+            }
+          },
+          "hand_cards": [
+            "S9",
+            "HA"
+          ]
+        },
+        {
+          "uuid": "6",
+          "hand": {
+            "hand": {
+              "strength": "TWO PAIR",
+              "high": 13,
+              "low": 2
+            },
+            "hole": {
+              "high": 10,
+              "low": 5
+            }
+          },
+          "hand_cards": [
+            "S5",
+            "DT"
+          ]
+        }
+      ],
+      "final_pot": 52
+    },
+    {
+      "hand_number": 6,
+      "hole_cards": [
+        "C9",
+        "DT"
+      ],
+      "seats": {
+        "calling_station": {
+          "name": "calling_station",
+          "uuid": "0",
+          "stack": 0,
+          "state": "folded"
+        },
+        "NitBot": {
+          "name": "NitBot",
+          "uuid": "1",
+          "stack": 970,
+          "state": "participating"
+        },
+        "Rando": {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 140,
+          "state": "participating"
+        },
+        "TAGBot": {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1404,
+          "state": "participating"
+        },
+        "Fish1": {
+          "name": "Fish1",
+          "uuid": "4",
+          "stack": 0,
+          "state": "folded"
+        },
+        "Fish2": {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4486,
+          "state": "participating"
+        },
+        "Fish3": {
+          "name": "Fish3",
+          "uuid": "6",
+          "stack": 0,
+          "state": "folded"
+        },
+        "CodeforcesNoob": {
+          "name": "CodeforcesNoob",
+          "uuid": "7",
+          "stack": 980,
+          "state": "participating"
+        },
+        "AnalysisBot": {
+          "name": "AnalysisBot",
+          "uuid": "8",
+          "stack": 990,
+          "state": "participating"
+        }
+      },
+      "actions": [
+        {
+          "type": "street_start",
+          "street": "preflop",
+          "pot": 30,
+          "board": []
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "fold",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 20,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "7",
+          "action": "fold",
+          "amount": 0,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "8",
+          "action": "fold",
+          "amount": 0,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "raise",
+          "amount": 100,
+          "pot": 130
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 100,
+          "pot": 210
+        },
+        {
+          "type": "street_start",
+          "street": "flop",
+          "pot": 210,
+          "board": [
+            "HQ",
+            "D5",
+            "S9"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "fold",
+          "amount": 0,
+          "pot": 210
+        }
+      ],
+      "pot_history": [],
+      "winners": [
+        {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4596,
+          "state": "participating"
+        }
+      ],
+      "final_board": [],
+      "final_pot": 210
+    },
+    {
+      "hand_number": 7,
+      "hole_cards": [
+        "ST",
+        "S6"
+      ],
+      "seats": {
+        "calling_station": {
+          "name": "calling_station",
+          "uuid": "0",
+          "stack": 0,
+          "state": "folded"
+        },
+        "NitBot": {
+          "name": "NitBot",
+          "uuid": "1",
+          "stack": 880,
+          "state": "participating"
+        },
+        "Rando": {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 120,
+          "state": "participating"
+        },
+        "TAGBot": {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1404,
+          "state": "participating"
+        },
+        "Fish1": {
+          "name": "Fish1",
+          "uuid": "4",
+          "stack": 0,
+          "state": "folded"
+        },
+        "Fish2": {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4596,
+          "state": "participating"
+        },
+        "Fish3": {
+          "name": "Fish3",
+          "uuid": "6",
+          "stack": 0,
+          "state": "folded"
+        },
+        "CodeforcesNoob": {
+          "name": "CodeforcesNoob",
+          "uuid": "7",
+          "stack": 980,
+          "state": "participating"
+        },
+        "AnalysisBot": {
+          "name": "AnalysisBot",
+          "uuid": "8",
+          "stack": 990,
+          "state": "participating"
+        }
+      },
+      "actions": [
+        {
+          "type": "street_start",
+          "street": "preflop",
+          "pot": 30,
+          "board": []
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "raise",
+          "amount": 100,
+          "pot": 130
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 100,
+          "pot": 230
+        },
+        {
+          "type": "action",
+          "player": "7",
+          "action": "fold",
+          "amount": 0,
+          "pot": 230
+        },
+        {
+          "type": "action",
+          "player": "8",
+          "action": "fold",
+          "amount": 0,
+          "pot": 230
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "fold",
+          "amount": 0,
+          "pot": 230
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "call",
+          "amount": 100,
+          "pot": 310
+        },
+        {
+          "type": "street_start",
+          "street": "flop",
+          "pot": 310,
+          "board": [
+            "HJ",
+            "D9",
+            "H6"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "call",
+          "amount": 0,
+          "pot": 310
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 310
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 310
+        },
+        {
+          "type": "street_start",
+          "street": "turn",
+          "pot": 310,
+          "board": [
+            "HJ",
+            "D9",
+            "H6",
+            "H4"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "raise",
+          "amount": 40,
+          "pot": 350
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 350
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 40,
+          "pot": 390
+        },
+        {
+          "type": "street_start",
+          "street": "river",
+          "pot": 390,
+          "board": [
+            "HJ",
+            "D9",
+            "H6",
+            "H4",
+            "C6"
+          ]
+        }
+      ],
+      "pot_history": [],
+      "winners": [
+        {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 390,
+          "state": "allin"
+        }
+      ],
+      "final_board": [
+        {
+          "uuid": "2",
+          "hand": {
+            "hand": {
+              "strength": "TWO PAIR",
+              "high": 9,
+              "low": 6
+            },
+            "hole": {
+              "high": 14,
+              "low": 9
+            }
+          },
+          "hand_cards": [
+            "CA",
+            "S9"
+          ]
+        },
+        {
+          "uuid": "5",
+          "hand": {
+            "hand": {
+              "strength": "PAIR",
+              "high": 6,
+              "low": 0
+            },
+            "hole": {
+              "high": 10,
+              "low": 2
+            }
+          },
+          "hand_cards": [
+            "C2",
+            "DT"
+          ]
+        }
+      ],
+      "final_pot": 390
+    },
+    {
+      "hand_number": 8,
+      "hole_cards": [
+        "C4",
+        "S5"
+      ],
+      "seats": {
+        "calling_station": {
+          "name": "calling_station",
+          "uuid": "0",
+          "stack": 0,
+          "state": "folded"
+        },
+        "NitBot": {
+          "name": "NitBot",
+          "uuid": "1",
+          "stack": 880,
+          "state": "participating"
+        },
+        "Rando": {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 380,
+          "state": "participating"
+        },
+        "TAGBot": {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1284,
+          "state": "participating"
+        },
+        "Fish1": {
+          "name": "Fish1",
+          "uuid": "4",
+          "stack": 0,
+          "state": "folded"
+        },
+        "Fish2": {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4456,
+          "state": "participating"
+        },
+        "Fish3": {
+          "name": "Fish3",
+          "uuid": "6",
+          "stack": 0,
+          "state": "folded"
+        },
+        "CodeforcesNoob": {
+          "name": "CodeforcesNoob",
+          "uuid": "7",
+          "stack": 980,
+          "state": "participating"
+        },
+        "AnalysisBot": {
+          "name": "AnalysisBot",
+          "uuid": "8",
+          "stack": 990,
+          "state": "participating"
+        }
+      },
+      "actions": [
+        {
+          "type": "street_start",
+          "street": "preflop",
+          "pot": 30,
+          "board": []
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 20,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "7",
+          "action": "fold",
+          "amount": 0,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "8",
+          "action": "fold",
+          "amount": 0,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "fold",
+          "amount": 0,
+          "pot": 50
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "call",
+          "amount": 20,
+          "pot": 60
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 60
+        },
+        {
+          "type": "street_start",
+          "street": "flop",
+          "pot": 60,
+          "board": [
+            "H8",
+            "H2",
+            "DQ"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "fold",
+          "amount": 0,
+          "pot": 60
+        }
+      ],
+      "pot_history": [],
+      "winners": [
+        {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4496,
+          "state": "participating"
+        }
+      ],
+      "final_board": [],
+      "final_pot": 60
+    },
+    {
+      "hand_number": 9,
+      "hole_cards": [
+        "C5",
+        "S3"
+      ],
+      "seats": {
+        "calling_station": {
+          "name": "calling_station",
+          "uuid": "0",
+          "stack": 0,
+          "state": "folded"
+        },
+        "NitBot": {
+          "name": "NitBot",
+          "uuid": "1",
+          "stack": 880,
+          "state": "participating"
+        },
+        "Rando": {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 370,
+          "state": "participating"
+        },
+        "TAGBot": {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1274,
+          "state": "participating"
+        },
+        "Fish1": {
+          "name": "Fish1",
+          "uuid": "4",
+          "stack": 0,
+          "state": "folded"
+        },
+        "Fish2": {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4476,
+          "state": "participating"
+        },
+        "Fish3": {
+          "name": "Fish3",
+          "uuid": "6",
+          "stack": 0,
+          "state": "folded"
+        },
+        "CodeforcesNoob": {
+          "name": "CodeforcesNoob",
+          "uuid": "7",
+          "stack": 980,
+          "state": "participating"
+        },
+        "AnalysisBot": {
+          "name": "AnalysisBot",
+          "uuid": "8",
+          "stack": 990,
+          "state": "participating"
+        }
+      },
+      "actions": [
+        {
+          "type": "street_start",
+          "street": "preflop",
+          "pot": 30,
+          "board": []
+        },
+        {
+          "type": "action",
+          "player": "7",
+          "action": "fold",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "8",
+          "action": "fold",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "call",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "fold",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "raise",
+          "amount": 100,
+          "pot": 120
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 100,
+          "pot": 200
+        },
+        {
+          "type": "street_start",
+          "street": "flop",
+          "pot": 200,
+          "board": [
+            "D2",
+            "S5",
+            "H2"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "raise",
+          "amount": 100,
+          "pot": 300
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 100,
+          "pot": 400
+        },
+        {
+          "type": "street_start",
+          "street": "turn",
+          "pot": 400,
+          "board": [
+            "D2",
+            "S5",
+            "H2",
+            "C2"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 400
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 400
+        },
+        {
+          "type": "street_start",
+          "street": "river",
+          "pot": 400,
+          "board": [
+            "D2",
+            "S5",
+            "H2",
+            "C2",
+            "HQ"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "raise",
+          "amount": 100,
+          "pot": 500
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 100,
+          "pot": 600
+        }
+      ],
+      "pot_history": [],
+      "winners": [
+        {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1584,
+          "state": "participating"
+        }
+      ],
+      "final_board": [
+        {
+          "uuid": "3",
+          "hand": {
+            "hand": {
+              "strength": "FULLHOUSE",
+              "high": 2,
+              "low": 12
+            },
+            "hole": {
+              "high": 12,
+              "low": 11
+            }
+          },
+          "hand_cards": [
+            "DQ",
+            "DJ"
+          ]
+        },
+        {
+          "uuid": "5",
+          "hand": {
+            "hand": {
+              "strength": "THREE OF A KIND",
+              "high": 2,
+              "low": 0
+            },
+            "hole": {
+              "high": 11,
+              "low": 9
+            }
+          },
+          "hand_cards": [
+            "HJ",
+            "S9"
+          ]
+        }
+      ],
+      "final_pot": 600
+    },
+    {
+      "hand_number": 10,
+      "hole_cards": [
+        "D3",
+        "DA"
+      ],
+      "seats": {
+        "calling_station": {
+          "name": "calling_station",
+          "uuid": "0",
+          "stack": 0,
+          "state": "folded"
+        },
+        "NitBot": {
+          "name": "NitBot",
+          "uuid": "1",
+          "stack": 880,
+          "state": "participating"
+        },
+        "Rando": {
+          "name": "Rando",
+          "uuid": "2",
+          "stack": 370,
+          "state": "participating"
+        },
+        "TAGBot": {
+          "name": "TAGBot",
+          "uuid": "3",
+          "stack": 1584,
+          "state": "participating"
+        },
+        "Fish1": {
+          "name": "Fish1",
+          "uuid": "4",
+          "stack": 0,
+          "state": "folded"
+        },
+        "Fish2": {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4186,
+          "state": "participating"
+        },
+        "Fish3": {
+          "name": "Fish3",
+          "uuid": "6",
+          "stack": 0,
+          "state": "folded"
+        },
+        "CodeforcesNoob": {
+          "name": "CodeforcesNoob",
+          "uuid": "7",
+          "stack": 960,
+          "state": "participating"
+        },
+        "AnalysisBot": {
+          "name": "AnalysisBot",
+          "uuid": "8",
+          "stack": 990,
+          "state": "participating"
+        }
+      },
+      "actions": [
+        {
+          "type": "street_start",
+          "street": "preflop",
+          "pot": 30,
+          "board": []
+        },
+        {
+          "type": "action",
+          "player": "8",
+          "action": "fold",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "1",
+          "action": "call",
+          "amount": 0,
+          "pot": 30
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "raise",
+          "amount": 56,
+          "pot": 86
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "raise",
+          "amount": 100,
+          "pot": 186
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 100,
+          "pot": 276
+        },
+        {
+          "type": "action",
+          "player": "7",
+          "action": "fold",
+          "amount": 0,
+          "pot": 276
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "raise",
+          "amount": 241,
+          "pot": 461
+        },
+        {
+          "type": "action",
+          "player": "3",
+          "action": "call",
+          "amount": 0,
+          "pot": 461
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 241,
+          "pot": 602
+        },
+        {
+          "type": "street_start",
+          "street": "flop",
+          "pot": 602,
+          "board": [
+            "S4",
+            "DQ",
+            "C6"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 602
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "raise",
+          "amount": 21,
+          "pot": 623
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 21,
+          "pot": 644
+        },
+        {
+          "type": "street_start",
+          "street": "turn",
+          "pot": 644,
+          "board": [
+            "S4",
+            "DQ",
+            "C6",
+            "C3"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 644
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "call",
+          "amount": 0,
+          "pot": 644
+        },
+        {
+          "type": "street_start",
+          "street": "river",
+          "pot": 644,
+          "board": [
+            "S4",
+            "DQ",
+            "C6",
+            "C3",
+            "S9"
+          ]
+        },
+        {
+          "type": "action",
+          "player": "5",
+          "action": "call",
+          "amount": 0,
+          "pot": 644
+        },
+        {
+          "type": "action",
+          "player": "2",
+          "action": "fold",
+          "amount": 0,
+          "pot": 644
+        }
+      ],
+      "pot_history": [],
+      "winners": [
+        {
+          "name": "Fish2",
+          "uuid": "5",
+          "stack": 4578,
+          "state": "participating"
+        }
+      ],
+      "final_board": [],
+      "final_pot": 644
+    }
+  ],
+  "players": {},
+  "session_start": "2025-08-21T10:43:46.774081",
+  "game_info": {
+    "seats": [
+      {
+        "name": "calling_station",
+        "uuid": "0",
+        "stack": 1000,
+        "state": "participating"
+      },
+      {
+        "name": "NitBot",
+        "uuid": "1",
+        "stack": 1000,
+        "state": "participating"
+      },
+      {
+        "name": "Rando",
+        "uuid": "2",
+        "stack": 1000,
+        "state": "participating"
+      },
+      {
+        "name": "TAGBot",
+        "uuid": "3",
+        "stack": 1000,
+        "state": "participating"
+      },
+      {
+        "name": "Fish1",
+        "uuid": "4",
+        "stack": 1000,
+        "state": "participating"
+      },
+      {
+        "name": "Fish2",
+        "uuid": "5",
+        "stack": 1000,
+        "state": "participating"
+      },
+      {
+        "name": "Fish3",
+        "uuid": "6",
+        "stack": 1000,
+        "state": "participating"
+      },
+      {
+        "name": "CodeforcesNoob",
+        "uuid": "7",
+        "stack": 1000,
+        "state": "participating"
+      },
+      {
+        "name": "AnalysisBot",
+        "uuid": "8",
+        "stack": 1000,
+        "state": "participating"
+      }
+    ],
+    "player_num": 9,
+    "rule": {
+      "max_round": 100,
+      "initial_stack": 1000,
+      "ante": 0,
+      "blind_structure": {
+        "1": {
+          "small_blind": 10,
+          "ante": 0
+        }
+      },
+      "small_blind_amount": 10
+    }
+  }
+}

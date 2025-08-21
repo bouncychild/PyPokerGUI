@@ -51,6 +51,19 @@ class EngineWrapper(object):
         is_final_round = round_count == max_round
         is_winner_decided = len([1 for p in table.seats.players if p.stack!=0])==1
         return is_final_round or is_winner_decided
+    
+    # Extra helper methods if needed
+    def _get_current_ask_message(self):
+        """Extract the current ask message from state"""
+        pass
+
+    def _get_player_algorithm(self, uuid):
+        """Get the AI instance for a player"""
+        pass 
+
+    def _get_round_state(self):
+        """Format round state for AI consumption"""
+        pass
 
 
 def gen_players_info(uuid_list, name_list):

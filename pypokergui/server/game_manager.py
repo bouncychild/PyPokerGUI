@@ -1,5 +1,5 @@
-import pypokergui.engine_wrapper as Engine
-import pypokergui.ai_generator as AG
+import pypokergui.engine.engine_wrapper as Engine
+import pypokergui.server.ai_generator as AG
 
 class GameManager(object):
 
